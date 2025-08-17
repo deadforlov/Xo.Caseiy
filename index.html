@@ -24,16 +24,17 @@
             width: 100%;
         }
 
-        .video-container {
+        .image-container {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
             overflow: hidden;
+            z-index: 0;
         }
 
-        .video-container video {
+        .image-container img {
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -158,7 +159,7 @@
                 padding: 15px;
             }
 
-            .video-container video {
+            .image-container img {
                 object-fit: cover;
             }
         }
@@ -175,7 +176,7 @@
                 padding: 12px;
             }
 
-            .video-container video {
+            .image-container img {
                 object-fit: cover;
             }
         }
@@ -184,18 +185,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <div class="video-container">
-        <video autoplay loop muted>
-            <source src="https://raw.githubusercontent.com/deadforlov/rae/refs/heads/main/0617(2).mp4" type="video/mp4">
-            Ваш браузер не поддерживает тег video.
-        </video>
+    <div class="image-container">
+        <img src="https://github.com/deadforlov/Xo.Caseiy/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-08-18%20000049.png?raw=true" alt="Casey background">
     </div>
 
     <div class="container">
-        <div class="neon-text">Rae</div>
-        <!-- Используем яркую иконку "сердце" для кнопки OnlyFans -->
+        <div class="neon-text">Casey</div>
         <a href="https://onlyfans.com/marisol_vip/c138" class="btn onlyfans">
-            <i class="fa-solid fa-heart" style="font-size: 30px; margin-right: 10px;"></i> <!-- Иконка для OnlyFans -->
+            <i class="fa-solid fa-heart" style="font-size: 30px; margin-right: 10px;"></i>
             OnlyFans
         </a>
         <a href="https://t.me/xo_caseiy" class="btn telegram"><i class="fa-brands fa-telegram"></i> Telegram</a>
